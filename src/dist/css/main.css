@@ -1,0 +1,174 @@
+*{
+  font-family: "Poppins", sans-serif;
+}
+
+  /* STYLE NAVBAR */
+
+  .navbar{
+    position: fixed;
+    padding: 15px 0 15px 0px;
+    width: 100%;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    z-index: 9999;
+}
+
+  .navbar.color-active{
+    background-color: white;
+    padding: 20px 0 20px 0;
+    border-bottom: 2px solid #02020282;
+  }
+
+  .nav-logo{
+    width: 210px;
+  }
+
+  .navbar .nav-link a{
+    padding: 20px 2px 8px 7px;
+    font-weight: 100px;
+    display: flex;
+    align-items: start;
+    text-decoration: none;
+    color: var(--navbar-color-text);
+  }
+
+  .navbar .nav-link a:hover{
+    color: rgba(0, 0, 0, 0.52);
+    border-bottom: 2px solid #663996;
+  }
+
+  .navbar .nav-link .active  {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+  }
+
+  .navbar .nav-link .active:hover {
+    color: var(--navbar-color);
+  }
+
+  /* STYLE NAVBAR */
+
+  /* STYLE  HOMEPAGE  HEADER*/
+
+  .homepage .header-box {
+    justify-content: center;    
+    width: 100%;
+  }
+
+  /* STYLE  HOMEPAGE  HEADER*/
+
+
+    /* STYLE HOMEPAGE KEALAS */
+   .homepage .kelas{
+    background-color: var(--navbar-color);
+    padding-bottom: 100px;
+   } 
+
+   .homepage .kelas .row:nth-child(1){
+    padding-bottom: 30px;
+   }
+
+   .homepage .kelas .row:nth-child(1) h3{
+    color: #663996;
+   }
+
+   .homepage .kelas .content {
+    width: 88%;
+    height: 100px;
+    border: 2px solid #663996;
+   }
+
+   .homepage .kelas .content a{
+    height: 39px;
+    width: 9%;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    background-color:  #663996;
+   }
+
+   .homepage .kelas .end {
+    width: 88%;
+    height: 65px;
+    border: 2px solid #663996;
+   }
+
+   .homepage .kelas .end img {
+    height: 63px;
+    width: 6%;
+    background-color:  #663996;
+   }
+
+   .homepage .kelas .end a{
+    height: 20px;
+    width: 6%;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    background-color:  #663996;
+   }
+
+   .homepage .kelas .end .teks-info {
+    margin-top: -2.7rem;
+    margin-left: 4rem;
+   }
+    /* STYLE HOMEPAGE KEALAS */
+
+
+    /* STYLE PROFIL HEADER */
+    .profil .header-box{
+      width: 100%;
+    }
+
+    .profil .data a{
+      text-decoration: none;
+      color: black;
+    }
+
+    /* .profil .header-box p{  
+      padding: 45px 40px 10px 80px;
+    } */
+    
+    /* STYLE PROFIL HEADER */
+
+
+    /* STYLE FOOTER */
+    .footer {
+      width: 100%;
+      background-color: #663996;
+      min-height: 40vh;
+      padding-top: 70px;
+      padding-left: 20vb;
+      
+    }
+
+    .footer .row:nth-child(1) .col h4{
+      color: white;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    .footer .row:nth-child(1) .col p{
+      color: white;
+      font-size: 14px;
+      line-height: 2;
+      
+    }
+
+     .footer-link .footer-link-icon:hover {
+      background-color: #692bac;
+
+    }
+
+    .footer .link-down{
+      color: white;
+    }
+
+    /* STYLE FOOTER */
